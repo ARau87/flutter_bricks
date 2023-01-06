@@ -1,0 +1,16 @@
+name: usecase
+description: A new brick created with the Mason CLI.
+version: 0.1.0+1
+environment:
+  mason: ">=0.1.0-dev.40 <0.1.0"
+vars:
+  name:
+    type: string
+    description: Name of the usecase
+    default: Dash
+    prompt: How should the usecase be named?
+  returnType:
+    type: string
+    description: Return type of the usecase
+    default: Either<FooError, FooModel>
+    prompt: Which type will the usecase return?
