@@ -23,6 +23,11 @@ environment:
 vars:
   name:
     type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
+    description: Name of the bloc
+    default: Foo
+    prompt: What is the name of the bloc?
+  resultType:
+    type: string
+    description: Type of the delayed result
+    default: String
+    prompt: What is the delayed result type?
