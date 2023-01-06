@@ -9,7 +9,7 @@ part '{{name.snakeCase()}}_state.dart';
 
 class {{name.pascalCase()}}Bloc extends Bloc<{{name.pascalCase()}}Event, {{name.pascalCase()}}State> {
 {{name.pascalCase()}}Bloc() : super(const {{name.pascalCase()}}State(result: DelayedResult.none())) {
-    on<{{name.snakeCase()}}Event>((event, emit) {
+    on<{{name.pascalCase()}}Event>((event, emit) {
       // TODO: implement event handler
     });
   }
