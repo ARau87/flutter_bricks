@@ -6,6 +6,6 @@ class {{name.pascalCase()}}Usecase
   @override
   Future<{{{returnType}}}> call(
       {required {{name.pascalCase()}}Parameters params}) async {
-    return null;
+    throw UnimplementedError();
   }
 }
