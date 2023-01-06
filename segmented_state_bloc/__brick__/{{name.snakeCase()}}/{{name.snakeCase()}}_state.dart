@@ -11,7 +11,7 @@ class {{name.pascalCase()}}State extends Equatable {
     DelayedResult<{{resultType}}>? result,
   }) {
     return {{name.pascalCase()}}State(
-      greetingResult: result ?? this.result,
+      result: result ?? this.result,
     );
   }
 
